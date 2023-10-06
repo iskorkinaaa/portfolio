@@ -1,0 +1,35 @@
+.progress
+  min-height: 250px
+  background-color: $blue
+  &__wrapper
+    padding-top: 38px
+    display: grid
+    grid-template-columns: repeat(3, 350px)
+    column-gap: 38px
+    grid-template-rows: repeat(2, minmax(59px, auto))
+    row-gap: 45px
+  &__item
+    display: grid
+    grid-template-columns: minmax(193px, auto) 54px
+    /* grid-template-rows: 21px 14px */
+    justify-content: space-between
+    align-content: space-between
+
+  &__number
+    color: $white
+    font-family: Mak
+    font-size: 20px
+    text-decoration-line: underline
+  &__line
+    width: 350px
+    height: 14px
+    border-radius: 4px
+    background: $black
+    grid-column: 1 / 3
+  span
+      position: relative
+      z-index: 10
+      display: block
+      height: 100%
+      background-color: $white
+      border-radius: 4px

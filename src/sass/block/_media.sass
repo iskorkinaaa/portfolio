@@ -1,0 +1,321 @@
+@media (max-width: 1439px)
+  .about-me
+    &__ellipse
+      display: none
+
+
+@media (max-width: 1200px)
+  .container
+    max-width: 960px
+  .sidepanel
+    display: none
+  .title
+    &_fz96 
+      font-size: 80px
+      line-height: 194px
+    &_fz64
+      font-size: 60px
+  .btn
+    left: 22px
+    top: 593px
+    &__contacts
+      top: 25px
+
+
+  .promo
+    &_quote
+      width: 300px
+      height: 120px
+      top: -225px
+    &__title
+      margin-top: -50px
+    &__subtitle
+      font-size: 22px
+    &_img
+      width: 475px
+      height: 625px
+      top: -170px
+      
+
+  .about-me
+    padding-top: 60px
+    &__wrapper
+      column-gap: 75px
+      grid-template-columns: 400px 485px
+    &__text
+      font-size: 16px
+    &__subtitle
+      font-size: 34px
+    &__descr
+      font-size: 36px
+
+  .progress
+    margin-top: 60px
+    &__wrapper
+      grid-template: repeat(3, minmax(59px, auto)) /  repeat(2, 350px) 
+      justify-content: space-around
+
+  .work
+    margin-top: 60px
+    &__items
+      grid-template-columns: repeat(auto-fit, 270px)
+      justify-content: space-evenly
+      row-gap: 30px
+
+  .portfolio
+    padding-top: 60px
+    &__wrapper
+      grid-template-columns: repeat(auto-fit, 289px)
+      grid-auto-rows: 280px
+      justify-content: space-evenly
+      row-gap: 25px
+      .horizontal, .vertical
+        grid-row: unset
+        grid-column: unset
+
+  .price
+    padding-top: 60px
+
+  .contacts
+    padding-top: 60px
+    &__wrapper
+      padding: 0
+      grid-template-columns: 400px 520px
+      column-gap: 40px
+    &__policy
+      left: 0
+      top: -78px
+
+  .footer
+    display: none
+
+
+@media (max-width: 992px)
+  .container
+    max-width: 720px
+    
+  .title
+    &_fz96 
+      font-size: 70px
+      line-height: 97px
+    &_fz64
+      font-size: 55px
+      text-align: center
+    &_fz36 
+      font-size: 32px
+
+  .btn
+    left: -28px
+    top: 604px
+
+  .promo
+    &__title
+      margin-top: 0
+    &_img
+      top: -122px
+      width: 445px
+      height: 595px
+    &__subtitle
+      font-size: 20px
+    &_quote
+      top: -176px
+      width: 272px
+
+  .about-me
+    padding-top: 50px
+    &__wrapper
+      column-gap: 60px
+      grid-template-columns: 320px 340px
+    &__subtitle
+      font-size: 30px
+      text-align: center
+    &__descr
+      font-size: 32px
+      text-align: center
+      margin-top: 2px
+    &__text
+      font-size: 15px
+      text-align: center
+
+  .work
+    &__items
+      padding: 0 20px
+
+  .portfolio
+    padding-top: 60px
+
+  .price
+    padding-top: 60px
+    &__wrapper
+      grid-template-columns: repeat(auto-fit, 350px)
+      padding: 0
+      
+  .contacts
+    &__wrapper
+      grid-template-columns: 300px 360px
+      column-gap: 0
+    &__descr-1, &__descr-2
+      font-size: 15px
+
+
+@media (max-width: 768px)
+  .container
+    max-width: 540px
+  .title
+    &_fz96 
+      font-size: 53px
+    &_fz64
+      text-align: left
+      font-size: 48px
+  .btn
+    left: -44px
+    top: 584px
+    &__contacts
+      left: 50%
+      transform: translateX(-50%)
+
+  .promo
+    &__subtitle
+      font-size: 19px
+    &__title
+      margin-top: -10px
+    &_quote
+      height: 100px
+      top: -183px
+    &_img
+      top: -125px
+      width: 435px
+      height: 585px
+
+  .about-me
+    padding-top: 40px
+    &__wrapper
+      grid-template: auto auto 340px/ 100%
+      row-gap: 15px
+    &__img
+      grid-row: 3 / 4
+    &__subtitle
+      font-size: 28px
+      text-align: left
+    &__descr
+      font-size: 32px
+      text-align: right
+      margin-top: -17px
+    &__text
+      font-size: 15px
+      text-align: left
+
+  .progress
+    &__wrapper
+      grid-template: repeat(6, minmax(59px, auto))/100%
+      row-gap: inherit
+    &__item
+      grid-template-columns: repeat(auto-fit, 320px)
+      grid-auto-rows: minmax(50px, auto)
+      justify-content: center
+    &__line
+      grid-column: 1/4
+      width: 100%
+  
+  .work
+    padding-top: 40px
+    &__items
+      padding: 0
+      justify-content: center
+      gap: 20px
+
+  .price
+    &__wrapper
+      justify-content: center
+
+  .contacts
+    &__photo
+      display: none
+    &__wrapper 
+      grid-template-columns: 1fr
+    &__policy
+      text-align: center
+
+
+@media (max-width: 576px)
+  .container
+    max-width: 100%
+    padding: 0 10px
+
+  .title
+    font-size: 36px
+    text-align: center
+    line-height: 43px
+    &_fz96
+      font-size: 53px
+      line-height: 46px
+      margin-top: 18px
+    &_fz64
+      font-size: 45px
+      text-align-last: left
+    &_fz20
+      font-size: 20px
+      text-align: left
+
+
+
+  .hamburger
+    right: 20px
+
+  .menu
+    &__block
+      width: 250px
+      padding-left: 20px
+
+  .btn
+    left: 50%
+    transform: translateX(-50%)
+    top: 475px
+    &__text
+      font-size: 18px
+    &__circle
+      width: 55px
+      height: 55px
+
+  .promo
+    &_img
+      width: 350px
+      height: 471px
+      top: -121px
+    &__subtitle
+      font-size: 17px
+    &_quote
+      font-size: 30px
+      width: 280px
+      height: 100px
+      top: -167px
+      left: 50%
+      transform: translateX(-50%)
+
+  .about-me
+    &__subtitle
+      font-size: 26px
+      margin-top: 0
+    &__descr
+      font-size: 30px
+      margin-top: -6px
+
+  .work
+    padding-top: 0
+    &__items
+      margin-top: 20px
+
+  .portfolio
+    padding-top: 60px
+
+  .divider_contacts
+      margin: 0 auto
+      margin-top: 20px
+     
+  .contacts
+    &__descr-1, &__descr-2
+      text-align: center
+    &__social
+      text-align: center
+    &__form
+      margin-top: 30px
